@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IriShield Demo</string>
+    <string name="start_label">Start</string>
+    <string name="stop_label">Stop</string>
+    <string name="operate_label">Operate</string>
+    <string name="about_shortcut">a</string><string name="about_title">IriMania</string>
+    <string name="settings_label">Settings</string>
+	<string name="settings_title">Sample code settings</string>
+	<string name="settings_shortcut">s</string>
+	<string name="exit_label">Exit</string>
+	<string name="exit_shortcut">e</string>
+	<string name="textedit_label">Enrollee ID:</string>
+	<string name="verify_button_label">Verify</string>
+	<string name="enroll_label">Enroll</string>
+	<string name="unenroll_label">Unenroll</string>
+	<string name="unenroll_all_label">Unenroll All</string>
+	<string name="capture_mode_button_label">Capture Mode</string>
+	<string name="identify_button_label">Identify</string>
+	<string name="identify_label">Check recent captured iris with gallery</string>
+	<string name="text">Word:</string>
+	<string name="about_web">www.iritech.com</string>
+	<string name="about_text">IriMania version 2.0.0.\nCopyright © IriTech, Inc. 2013</string>
+	<string name="check_label">Check</string>
+	<string name="tab_capture">Capture</string>
+	<string name="tab_registration">Registration</string>
+	<string name="tab_matching">Matching</string>
+	
+	<string name="sdkinit_error">Cannot configure the IriTech SDK. The application may not run properly.</string>
+	<string name="opendevice_notfound">Device not found. Scanning device ...</string>
+	<string name="opendevice_failed">Open device failed. Scanning device ...</string>
+	<string name="opendevice_accessdenied">Device access denied. Scanning device ...</string>	
+	<string name="error">Error</string>
+	<string name="warning">Warning</string>
+	<string name="opendevice_version_incompatible">This application is not compatible with IriShield device version \u003c= 2.24</string>
+	<string name="stream_disable">Streamming function is disabled in the device !</string>
+	<string name="opendevice_connected">Device connected</string>
+	
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="confirmation">Confirmation</string>
+	<string name="information">Information</string>
+	<string name="capture_aborted">"Capture aborted !"</string>
+	<string name="right_eye">Right Eye</string>
+	<string name="left_eye">Left Eye</string>
+	<string name="cannot_create_best_folder">Cannot create best image directory.</string>
+	<string name="capture_noqualified">No frame qualified !</string>
+	
+	<string name="capture_finish">Please finish a capture !</string>
+	<string name="capture_eyey_detected">Eye detected !</string>
+	<string name="capture_finished">Capture finished !</string>
+	
+	<string name="identification">Identification</string>
+	<string name="identify_greyzone_suggest_retake_iris">The image is not matchable due to, e.g., occlusion, reflection, side-gazing, or blurriness.\r\nPlease re-capture another image and try again.</string>
+	<string name="identify_no_match">This person is not in the enrollment database</string>
+	<string name="greyzone_suggest_retake_iris">The image is not matchable due to, e.g., occlusion, reflection, side-gazing, or blurriness.\r\nPlease re-capture another image and try again.</string>
+	<string name="no_match_found">This person is not in the enrollment database</string>
+	
+	<string name="welcome">Welcome</string>
+	<string name="identify_successful">Your identity has been identified successfully.</string>
+	
+	<string name="verification">Verification</string>
+	<string name="verify_enter_enrollee_ID">Please enter the enrollee ID</string>
+	<string name="verify_no_match">"Your identity does NOT match with ID '"</string>
+	
+	<string name="enroll_more_ask">You can not enroll more !</string>
+	<string name="enroll_succesful">Enroll successfully</string>
+	<string name="enroll_theID">The ID</string>
+	<string name="enroll_been_enrolled">has been enrolled with</string>
+	<string name="enroll_iris">iris(es)</string>
+	<string name="enroll_failed_already_enrolled">Enroll failed. Your irises are already enrolled as another ID.</string>
+	<string name="enroll_id_wrong_format">The ID must contain only alphanumeric characters.</string>
+	<string name="enroll_warning_onequalify">"Both eyes are captured but only one is qualified for the enrollment. \n"</string>
+	<string name="enroll_warning">"The captured image is enrollable but is not in sufficient quality to warrant the best accuracy. The subject is recommended to have his/her iris image recaptured with the eye opened widely and moved slowly towards the camera.\n" + "Do you want to proceed anyway?"</string>
+	<string name="enroll_proceed_ask">"Do you want to proceed anyway?\n"</string>
+	<string name="enroll_id_not_exist">The enroll ID does not exist. Please select another one !</string>
+	
+	<string name="unenroll_succesfully">Unenroll successfully</string>	
+	<string name="unenrollall_question">Are you sure to unenroll all registered IDs?</string>
+	
+	<string name="total_score">Total Score</string>
+	<string name="usable_area">Usable Area</string>
+	
+	
+	<string name="settings_operation_mode">Operation Mode</string>
+	<string name="settings_autocapture">Auto Capture</string>
+	<string name="settings_operator">Operator Initiated</string>
+	<string name="settings_quality_mode">Quality Mode</string>
+	<string name="settings_quality_normal">Normal</string>
+	<string name="settings_quality_high">High</string>
+	<string name="settings_quality_veryhigh">Very High</string>
+	<string name="settings_capture_mode">Capture Mode</string>
+	<string name="settings_timebased">Time Based</string>
+	<string name="settings_count_interval">Count Interval</string>
+	<string name="settings_outputdir">Output Directory</string>	
+	<string name="settings_output_summary">/sdcard/iritech/output/</string>
+	<string name="settings_prefix">Prefix Name</string>	
+	<string name="settings_pre_default">Unknown</string>
+	<string name="settings_savebest">Save Best Image</string>	
+	<string name="settings_savebest_info">Best image will be saved to output directory</string>
+	<string name="settings_dedup">Check Deduplication</string>	
+	<string name="settings_dedup_info">Check deduplication before enrollment</string>
+	
+	<string name="settings_correct_number">Please correct count number in settings menu !</string>
+	<string name="capture_again_require">"Please capture another image with subject's eye opened widely and moved slowly towards the camera."</string>
+	<string name="verify_reject">"The captured image's quality is not sufficient for verification."</string>
+	<string name="identify_reject">"The captured image's quality is not sufficient for identification."</string>
+	<string name="enroll_reject">"The captured image's quality is not sufficient for enrollment."</string>
+	
+	
+	<string name="cam_not_init">Failed to initialize the camera.</string>
+	<string name="cam_ready">Camera ready</string>
+	<string name="config_get_failed">Failed to get current setting values.</string>
+	
+	<string name="permission_warning_1">"Donot have privilege to enable deduplication check in the device ! The default value is used instead !"</string>
+	<string name="permission_warning_2">"Donot have privilege to disable deduplication check in the device ! The default value is used instead !"</string>
+	<string name="connection_restart_ask">The program cannot run properly due to connection problem.We suggest to do the following actions:\n\t1. Unplug and plugin the device.\n\t2. Restart the application</string>
+	<string name="connection_failed">Device connection failed.</string>
+	<string name="device_disconnected">IriShield is disconnected.</string>
+	
+	<string name="standby">Standby</string>
+	<string name="sleep">Sleep</string>
+	<string name="deep_sleep">Deep Sleep</string>
+	<string name="sleep_mode_title">Choose sleep mode!</string>
+	<string name="automatic">Automatic</string>
+	<string name="manual">Manual</string>
+	<string name="sleep_mode">Sleep Mode</string>
+	<string name="sleep_after">Sleep After</string>
+	<string name="secs">Secs</string>
+	<string name="apply">Apply</string>
+	
+</resources>

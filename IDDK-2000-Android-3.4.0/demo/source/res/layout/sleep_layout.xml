@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- Stop auto focussing the EditText -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="@dimen/sleep_head_padding">
+
+        <TextView
+            android:text="@string/automatic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/sleep_auto_width"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sleep_row_heigh">
+
+            <TextView
+                android:text="@string/sleep_mode"
+                android:layout_width="@dimen/sleep_auto_col1"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+            <Spinner
+                android:layout_width="@dimen/sleep_auto_col2"
+                android:layout_height="wrap_content"
+                android:id="@+id/sleep_spinner"
+                android:entries="@array/sleepMode" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sleep_row_heigh">
+
+            <TextView
+                android:text="@string/sleep_after"
+                android:layout_width="@dimen/sleep_auto_col1"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="@dimen/sleep_auto_col2"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/sleep_after_input" />
+
+            <TextView
+                android:text="@string/secs"
+                android:layout_width="@dimen/sleep_auto_col3"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <Button
+                android:text="@string/apply"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/b_sleep_apply" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="@dimen/sleep_head_padding">
+
+        <TextView
+            android:text="@string/manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <Button
+            android:text="@string/standby"
+            android:layout_width="200dp"
+            android:id="@+id/b_standby"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+
+        <Button
+            android:text="@string/sleep"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/b_sleep"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/deep_sleep"
+            android:layout_height="50dp"
+            android:id="@+id/b_deep_sleep"
+            android:layout_weight="1"
+            android:layout_width="200dp" />
+    </LinearLayout>
+
+</LinearLayout>

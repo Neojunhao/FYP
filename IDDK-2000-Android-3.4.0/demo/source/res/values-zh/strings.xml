@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IriShield Demo</string>
+    <string name="settings_label">Settings</string>		
+	<string name="exit_label">Exit</string>
+	
+	<string name="textedit_label">用户注册</string>
+	<string name="verify_button_label">验证</string>
+	<string name="enroll_label">用户注册</string>
+	<string name="unenroll_label">注销</string>
+	<string name="unenroll_all_label">全部注销</string>	
+	<string name="identify_button_label">识别</string>
+	
+	<string name="text">Word:</string>
+	<string name="about_web">www.iritech.com</string>
+	<string name="about_text">IriMania version 2.0.0.\nCopyright © IriTech, Inc. 2013</string>
+	<string name="check_label">Check</string>
+	
+	<string name="tab_capture">捕捉</string>
+	<string name="tab_registration">注册</string>
+	<string name="tab_matching">识别</string>
+	
+	<string name="sdkinit_error">Cannot configure the IriTech SDK. The application may not run properly.</string>
+	<string name="opendevice_notfound">Device not found. Scanning device ...</string>
+	<string name="opendevice_failed">Open device failed. Scanning device ...</string>
+	<string name="opendevice_accessdenied">Device access denied. Scanning device ...</string>	
+	<string name="error">出错</string>
+	<string name="warning">警告</string>
+	<string name="opendevice_version_incompatible">This application is not compatible with IriShield device version \u003c= 2.24</string>
+	<string name="stream_disable">Streamming function is disabled in the device !</string>
+	<string name="opendevice_connected">已连接设备</string>
+	
+	<string name="yes">是</string>
+	<string name="no">不</string>
+	<string name="ok">是</string>
+	<string name="confirmation">ZH Confirmation</string>
+	<string name="information">提示</string>
+	
+	<string name="identification">识别结果</string>
+	<string name="identify_greyzone_suggest_retake_iris">The image is not matchable due to, e.g., occlusion, reflection, side-gazing, or blurriness.\r\nPlease re-capture another image and try again.</string>
+	<string name="identify_no_match">This person is not in the enrollment database</string>
+	
+	<string name="welcome">欢迎</string>
+	<string name="identify_successful">您的身份已确认成功</string>
+	
+	<string name="verification">验证结果</string>
+	<string name="verify_enter_enrollee_ID">请输入账号</string>
+	
+	<string name="enroll_more_ask">还要继续注册吗？</string>
+	<string name="enroll_succesful">注册成功</string>
+	<string name="enroll_theID">该用户</string>
+	<string name="enroll_been_enrolled">已经注册了</string>
+	<string name="enroll_iris">个虹膜</string>
+	
+	<string name="capture_finish">请完成捕捉</string>
+	<string name="capture_eyey_detected">发现虹膜</string>
+	<string name="capture_finished">捕捉完成</string>
+	
+	<string name="total_score">综合得分</string>
+	<string name="usable_area">可用范围</string>
+	
+	
+	<string name="settings_title">Settings</string>
+	<string name="settings_operation_mode">Operation Mode</string>
+	<string name="settings_autocapture">Auto Capture</string>
+	<string name="settings_operator">Operator Initiated</string>
+	<string name="settings_quality_mode">Quality Mode</string>
+	<string name="settings_quality_normal">Normal</string>
+	<string name="settings_quality_high">High</string>
+	<string name="settings_quality_veryhigh">Very High</string>
+	<string name="settings_capture_mode">Capture Mode</string>
+	<string name="settings_timebased">Time Based</string>
+	<string name="settings_count_interval">Count Interval</string>
+	<string name="settings_outputdir">Output Directory</string>	
+	<string name="settings_output_summary">/sdcard/iritech/output/</string>
+	<string name="settings_prefix">Prefix Name</string>	
+	<string name="settings_pre_default">Unknown</string>
+	<string name="settings_savebest">Save Best Image</string>	
+	<string name="settings_savebest_info">Best image will be saved to output directory</string>
+	<string name="settings_dedup">Check Deduplication</string>	
+	<string name="settings_dedup_info">Check deduplication before enrollment</string>
+	
+</resources>
